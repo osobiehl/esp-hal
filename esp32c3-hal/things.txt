@@ -1,0 +1,6 @@
+sudo apt install libudev-dev
+sudo apt install pkg-config
+using espflash tool
+cargo install cargo-espflash
+cargo install espflash
+cargo espflash --release --example=blinky /dev/ttyUSB0
